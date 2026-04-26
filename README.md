@@ -4,7 +4,7 @@
 🦋
 </pre>
 
-# Infp.skill
+# INFP.SKILL
 
 *一个试图理解 "我为什么总是这样" 的小小尝试*
 
@@ -75,7 +75,7 @@
 ## ✧ 目录
 
 ```
-Infp.skill/
+INFP.SKILL/
 ├── 📖 README.md              ← 你在这里
 ├── 🔮 SKILL.md               ← 给 Agent 的触发说明
 │

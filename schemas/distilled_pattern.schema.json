@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "pattern_name",
+    "abstract_summary",
+    "source_signal_type",
+    "common_scenarios",
+    "common_inner_monologues",
+    "surface_emotions",
+    "deeper_needs",
+    "strengths",
+    "costs",
+    "growth_direction"
+  ],
+  "properties": {
+    "pattern_name": { "type": "string" },
+    "abstract_summary": { "type": "string" },
+    "source_signal_type": {
+      "type": "string",
+      "enum": ["single_case", "clustered_pattern", "manual_summary"]
+    },
+    "common_scenarios": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "common_inner_monologues": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "surface_emotions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "deeper_needs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "strengths": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "costs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "growth_direction": { "type": "string" }
+  },
+  "additionalProperties": false
+}

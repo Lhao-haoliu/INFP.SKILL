@@ -1,0 +1,4 @@
+interface:
+  display_name: "INFP 自我理解"
+  short_description: "从自我困惑中识别温和的 INFP-like 模式、需求、优势、代价和成长方向。"
+  default_prompt: "帮我理解这段自我困惑背后可能反复出现的模式、情绪需求、优势代价和一个温和的成长方向。"

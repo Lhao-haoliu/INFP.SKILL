@@ -1,0 +1,7 @@
+pandas
+openpyxl
+pydantic
+jsonlines
+python-dotenv
+tqdm
+PyMySQL

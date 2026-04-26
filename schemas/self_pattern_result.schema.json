@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "pattern_name",
+    "confidence",
+    "surface_emotions",
+    "deeper_needs",
+    "possible_core_belief",
+    "strengths",
+    "costs",
+    "growth_direction",
+    "reflection_questions"
+  ],
+  "properties": {
+    "pattern_name": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["low", "medium", "high"]
+    },
+    "surface_emotions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "deeper_needs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "possible_core_belief": {
+      "type": "string"
+    },
+    "strengths": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "costs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "growth_direction": {
+      "type": "string"
+    },
+    "reflection_questions": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": false
+}

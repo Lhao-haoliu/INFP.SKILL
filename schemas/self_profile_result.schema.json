@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "profile_name",
+    "summary",
+    "core_patterns",
+    "hidden_needs",
+    "strengths",
+    "costs",
+    "growth_directions",
+    "reflection_questions"
+  ],
+  "properties": {
+    "profile_name": { "type": "string" },
+    "summary": { "type": "string" },
+    "core_patterns": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "hidden_needs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "strengths": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "costs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "growth_directions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "reflection_questions": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": false
+}

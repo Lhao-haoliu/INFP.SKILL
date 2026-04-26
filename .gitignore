@@ -1,0 +1,20 @@
+# private data
+data_private/
+dist/*.jsonl
+dist/*.csv
+dist/*.xlsx
+dist/*.txt
+dist/raw*
+dist/intermediate*
+
+# environment
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# local files
+.DS_Store
+.idea/
+.vscode/

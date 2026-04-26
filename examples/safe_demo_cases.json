@@ -1,0 +1,41 @@
+[
+  {
+    "input": "我总是很怕麻烦别人，明明自己很难受也不敢说。",
+    "pattern_name": "压抑需求型 + 逃避冲突型",
+    "surface_emotions": ["纠结", "自责", "委屈"],
+    "deeper_needs": ["被允许表达", "被认真对待", "关系安全感"],
+    "strengths": ["体贴", "能照顾他人感受"],
+    "costs": ["容易忽略自己", "委屈长期累积"],
+    "growth_direction": "从低风险小事开始表达一个具体需求。",
+    "reflection_questions": [
+      "我是否把正常需求理解成了负担？",
+      "如果朋友提出同样需求，我会觉得他麻烦吗？"
+    ]
+  },
+  {
+    "input": "我发现我很容易因为别人一句话想很久。",
+    "pattern_name": "关系敏感型",
+    "surface_emotions": ["焦虑", "紧张"],
+    "deeper_needs": ["确定感", "关系安全感"],
+    "strengths": ["敏锐", "重视关系质量"],
+    "costs": ["容易把细节解释成关系风险"],
+    "growth_direction": "把事实和推测分开，再决定是否需要确认。",
+    "reflection_questions": [
+      "我看到的是事实，还是对失去关系的恐惧？",
+      "有没有其他解释也能说明这句话？"
+    ]
+  },
+  {
+    "input": "我不喜欢社交，但又怕自己显得不合群。",
+    "pattern_name": "社交耗电型",
+    "surface_emotions": ["疲惫", "内疚"],
+    "deeper_needs": ["独处恢复", "可控节奏"],
+    "strengths": ["重视真实连接"],
+    "costs": ["容易误解自己不合群"],
+    "growth_direction": "提前设置社交时长和恢复时间。",
+    "reflection_questions": [
+      "我需要的是更多关系，还是更适合自己的节奏？",
+      "哪些社交让我长期表演？"
+    ]
+  }
+]

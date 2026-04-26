@@ -68,19 +68,50 @@
 
 ## 怎么用它
 
-### 方式一：直接用（推荐）
+### 方式一：安装到你的 AI 工具（推荐）
 
-把本目录复制到你的 Kimi CLI skills 目录：
+这个 Skill 支持多种 Agent 平台，安装方式几乎一样——复制到对应的 skills 目录即可。
+
+#### Kimi CLI
 
 ```bash
 # macOS / Linux
 cp -r INFP.SKILL ~/.kimi/skills/
 
-# Windows
-xcopy /E /I "E:\infp\infp-self-understanding-skill" "%USERPROFILE%\.kimi\skills\INFP.SKILL"
+# Windows (PowerShell)
+Copy-Item -Recurse "INFP.SKILL" "$env:USERPROFILE\.kimi\skills\"
 ```
 
-启动 Kimi CLI 后，当你描述关系困扰、情绪内耗、社交疲惫、表达困难等情境时，Agent 会自动加载这个 Skill 回应你。
+#### Kimi OpenClaw
+
+```bash
+# macOS / Linux
+cp -r INFP.SKILL ~/.kimi_openclaw/workspace/skills/
+
+# Windows (PowerShell)
+Copy-Item -Recurse "INFP.SKILL" "$env:USERPROFILE\.kimi_openclaw\workspace\skills\"
+```
+
+#### Claude Code
+
+```bash
+# macOS / Linux
+cp -r INFP.SKILL ~/.claude/skills/
+
+# Windows (PowerShell)
+Copy-Item -Recurse "INFP.SKILL" "$env:USERPROFILE\.claude\skills\"
+```
+
+#### Codex / 其他兼容工具
+
+```bash
+# 大多数遵循相同 SKILL.md 规范的工具
+cp -r INFP.SKILL ~/.codex/skills/
+# 或 ~/.config/codex/skills/
+# 或你自定义的 skills 目录
+```
+
+> 安装后，当你描述关系困扰、情绪内耗、社交疲惫、表达困难等情境时，Agent 会自动加载这个 Skill 回应你。
 
 ### 方式二：作为项目参考
 

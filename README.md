@@ -6,7 +6,7 @@
 
 # INFP.SKILL
 
-*一个试图理解 "我为什么总是这样" 的小小尝试*
+*如果你也问过自己 "为什么总是这样"*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-9db4c0.svg?style=flat-square)](LICENSE)
 [![Type: Skill](https://img.shields.io/badge/Type-Skill-cdb4db.svg?style=flat-square)]()
